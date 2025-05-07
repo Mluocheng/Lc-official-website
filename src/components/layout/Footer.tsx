@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="relative z-10 flex flex-col md:flex-row md:items-start md:gap-12">
           {/* Logo */}
           <div className="flex-shrink-0 flex flex-col items-center md:items-start mb-8 md:mb-0 md:w-1/5">
-            <Image src="/images/logo.png" alt="微盟logo" width={120} height={48} />
+            <Image src="/images/logo.png" alt="logo" width={120} height={48} />
           </div>
           {/* 分组导航 */}
           <div className="flex-1 grid grid-cols-2 md:grid-cols-4 gap-8">

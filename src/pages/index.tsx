@@ -12,7 +12,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>企业官网 - 数字化解决方案提供商</title>
-        <meta name="description" content="基于微盟风格的官网，展示企业服务和案例" />
+        <meta name="description" content="基于风格的官网，展示企业服务和案例" />
         <meta name="keywords" content="企业官网,数字化,解决方案" />
       </Head>
       <main>

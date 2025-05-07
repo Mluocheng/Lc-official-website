@@ -18,7 +18,7 @@ const Header = () => {
       <div className="container relative flex items-center justify-between h-16">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src="/images/logo.png" alt="微盟logo" className="h-8 w-auto" />
+          <img src="/images/logo.png" alt="logo" className="h-8 w-auto" />
         </div>
         {/* 菜单 居中显示，不换行，间距更大，超出可横向滚动 */}
         <nav className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-nowrap gap-12 text-base font-medium justify-center overflow-x-auto scrollbar-hide">
