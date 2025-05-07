@@ -4,10 +4,10 @@ import { useRouter } from 'next/router';
 const navs = [
   { name: '集团信息', href: '/group' },
   { name: '业务体系', href: '/business' },
-  { name: '企业文化', href: '#' },
-  { name: 'ESG', href: '#' },
-  { name: '投资者关系', href: '#' },
-  { name: '新闻及品牌资料', href: '#' },
+  { name: '企业文化', href: '/culture' },
+  { name: 'ESG', href: '/esg' },
+  { name: '投资者关系', href: '/investor-relations' },
+  { name: '新闻及品牌资料', href: '/news-and-brand' },
 ];
 
 const Header = () => {
