@@ -34,7 +34,7 @@ const footerNav = [
       { name: '管理理念', href: '#' },
       { name: '人才发展体系', href: '#' },
       { name: '文化活动', href: '#' },
-      { name: '办公环境', href: '#' },
+      { name: '办公环境', href: 'https://smartpark.luocheng.fun/', target: '_blank' }
     ],
   },
 ];
@@ -58,7 +58,7 @@ const Footer = () => {
                 <ul className="space-y-2">
                   {group.items.map((item) => (
                     <li key={item.name}>
-                      <Link href={item.href} className="text-gray-700 hover:text-primary-600 transition-colors text-base">{item.name}</Link>
+                      <Link href={item.href} target={item.target} className="text-gray-700 hover:text-primary-600 transition-colors text-base">{item.name}</Link>
                     </li>
                   ))}
                 </ul>
