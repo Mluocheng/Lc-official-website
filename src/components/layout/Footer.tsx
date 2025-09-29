@@ -32,7 +32,7 @@ const footerNav = [
     title: '企业文化',
     items: [
       { name: '管理理念', href: '#' },
-      { name: '人才发展体系', href: '#' },
+      { name: 'redo/undo', href: '/immer' },
       { name: '拖拽缩放排序', href: '/demo' },
       { name: '办公环境', href: 'https://smartpark.luocheng.fun/', target: '_blank' }
     ],
